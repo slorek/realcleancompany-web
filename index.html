@@ -1,0 +1,520 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="The Real Clean Company — professional domestic and commercial cleaning services in Southampton and surrounding areas. DBS checked, fully insured, fixed price." />
+  <title>The Real Clean Company | Southampton Cleaning Services</title>
+<link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- ═══════════════════════════════════════════
+       DECORATIVE LAYER — fixed behind everything
+       Stars & Bubbles scattered across the page
+  ════════════════════════════════════════════ -->
+  <div class="deco-layer" aria-hidden="true">
+
+    <!-- SPARKLE STARS  data-speed = parallax rate (fraction of scroll distance) -->
+    <!-- Star 1 — large, top left -->
+    <svg class="float-a" data-speed="0.18" style="top:8%;left:3%;width:72px;height:72px;animation:floatA 6s ease-in-out infinite,popStar 17s -3s ease-in-out infinite;" viewBox="0 0 72 72" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path fill="#003b87" d="M36 2 l5.8 21.5a1.4 1.4 0 0 0 1 1L64 30l-21.2 5.8a1.4 1.4 0 0 0-1 1L36 58l-5.8-21.2a1.4 1.4 0 0 0-1-1L8 30l21.2-5.5a1.4 1.4 0 0 0 1-1Z"/>
+      <path fill="#ffffff" d="M36 12 l3.5 13a0.3 0.3 0 0 0 .2.2L53 29l-13.3 3.5a0.3 0.3 0 0 0-.2.2L36 46l-3.5-13.3a0.3 0.3 0 0 0-.2-.2L19 29l13.3-3.5a0.3 0.3 0 0 0 .2-.2Z"/>
+    </svg>
+
+    <!-- Star 2 — small, top right area -->
+    <svg class="float-b delay-1" data-speed="-0.12" style="top:12%;right:8%;width:40px;height:40px;" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path fill="#003b87" d="M20 1 l3.2 12a0.8 0.8 0 0 0 .6.6L36 17l-12.2 3.2a0.8 0.8 0 0 0-.6.6L20 33l-3.2-12.2a0.8 0.8 0 0 0-.6-.6L4 17l12.2-3.2a0.8 0.8 0 0 0 .6-.6Z"/>
+      <path fill="#ffffff" d="M20 7 l2 7.5a0.2 0.2 0 0 0 .15.15L27.5 17l-7.35 2a0.2 0.2 0 0 0-.15.15L20 26.5l-2-7.35a0.2 0.2 0 0 0-.15-.15L10.5 17l7.35-2a0.2 0.2 0 0 0 .15-.15Z"/>
+    </svg>
+
+    <!-- Star 3 — medium, mid-left -->
+    <svg class="float-c delay-2" data-speed="0.22" style="top:38%;left:6%;width:54px;height:54px;" viewBox="0 0 54 54" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path fill="#003b87" d="M27 1.5 l4.4 16.3a1.1 1.1 0 0 0 .8.8L49 23l-16.8 4.4a1.1 1.1 0 0 0-.8.8L27 45l-4.4-16.8a1.1 1.1 0 0 0-.8-.8L5 23l16.8-4.4a1.1 1.1 0 0 0 .8-.8Z"/>
+      <path fill="#ffffff" d="M27 8 l2.8 10.5a0.25 0.25 0 0 0 .2.2L40.5 21l-10.5 2.8a0.25 0.25 0 0 0-.2.2L27 34.5l-2.8-10.5a0.25 0.25 0 0 0-.2-.2L13.5 21l10.5-2.8a0.25 0.25 0 0 0 .2-.2Z"/>
+    </svg>
+
+    <!-- Star 4 — small, mid-right -->
+    <svg class="float-d delay-1" data-speed="-0.08" style="top:45%;right:4%;width:32px;height:32px;animation:floatD 8s -1.5s ease-in-out infinite,popBubble 13s -7s ease-in-out infinite;" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path fill="#003b87" d="M16 1 l2.6 9.6a0.65 0.65 0 0 0 .5.5L29 14l-9.9 2.6a0.65 0.65 0 0 0-.5.5L16 27l-2.6-9.9a0.65 0.65 0 0 0-.5-.5L3 14l9.9-2.6a0.65 0.65 0 0 0 .5-.5Z"/>
+      <path fill="#ffffff" d="M16 6 l1.6 6a0.18 0.18 0 0 0 .13.13L24 14l-6.27 1.6a0.18 0.18 0 0 0-.13.13L16 22.5l-1.6-6.27a0.18 0.18 0 0 0-.13-.13L8 14l6.27-1.6a0.18 0.18 0 0 0 .13-.13Z"/>
+    </svg>
+
+    <!-- Star 5 — medium, lower left -->
+    <svg class="float-b delay-3" data-speed="0.15" style="top:68%;left:10%;width:48px;height:48px;" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path fill="#003b87" d="M24 1 l3.9 14.5a1 1 0 0 0 .7.7L43 20l-14.4 3.9a1 1 0 0 0-.7.7L24 39l-3.9-14.4a1 1 0 0 0-.7-.7L5 20l14.4-3.9a1 1 0 0 0 .7-.7Z"/>
+      <path fill="#ffffff" d="M24 7 l2.4 9a0.22 0.22 0 0 0 .18.18L36 18.5l-9.42 2.4a0.22 0.22 0 0 0-.18.18L24 30.5l-2.4-9.42a0.22 0.22 0 0 0-.18-.18L12 18.5l9.42-2.4a0.22 0.22 0 0 0 .18-.18Z"/>
+    </svg>
+
+    <!-- Star 6 — tiny, lower right -->
+    <svg class="float-a delay-4" data-speed="-0.2" style="top:72%;right:12%;width:26px;height:26px;" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path fill="#003b87" d="M13 1 l2.1 7.8a0.5 0.5 0 0 0 .38.38L23.5 11l-8.02 2.1a0.5 0.5 0 0 0-.38.38L13 22l-2.1-8.02a0.5 0.5 0 0 0-.38-.38L2.5 11l8.02-2.1a0.5 0.5 0 0 0 .38-.38Z"/>
+      <path fill="#ffffff" d="M13 4.5 l1.3 4.8a0.14 0.14 0 0 0 .1.1L19.5 11l-5.1 1.3a0.14 0.14 0 0 0-.1.1L13 17.5l-1.3-5.1a0.14 0.14 0 0 0-.1-.1L6.5 11l5.1-1.3a0.14 0.14 0 0 0 .1-.1Z"/>
+    </svg>
+
+    <!-- Star 7 — small, centre-right area -->
+    <svg class="float-c delay-2" data-speed="0.1" style="top:55%;right:18%;width:36px;height:36px;" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path fill="#003b87" d="M18 1 l2.9 10.8a0.72 0.72 0 0 0 .55.55L33 15l-11.55 2.9a0.72 0.72 0 0 0-.55.55L18 31l-2.9-11.55a0.72 0.72 0 0 0-.55-.55L3 15l11.55-2.9a0.72 0.72 0 0 0 .55-.55Z"/>
+      <path fill="#ffffff" d="M18 6.5 l1.8 6.7a0.17 0.17 0 0 0 .13.13L26.3 15l-6.87 1.8a0.17 0.17 0 0 0-.13.13L18 23.5l-1.8-6.87a0.17 0.17 0 0 0-.13-.13L9.7 15l6.87-1.8a0.17 0.17 0 0 0 .13-.13Z"/>
+    </svg>
+
+    <!-- SOAP BUBBLES -->
+    <!-- Bubble 1 — large, top right -->
+    <svg class="float-b" data-speed="-0.1" style="top:5%;right:16%;width:90px;height:90px;animation:floatB 7.5s ease-in-out infinite,popBubble 19s -8s ease-in-out infinite;" viewBox="0 0 90 90" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <circle cx="45" cy="45" r="42" stroke="#003b87" stroke-width="3" fill="#ffffff"/>
+      <path d="M25 28 Q 20 20 32 18" stroke="#ffffff" stroke-width="4" stroke-linecap="round" fill="none" opacity="0.5"/>
+      <circle cx="28" cy="22" r="4" fill="#003b87" opacity="0.12"/>
+    </svg>
+
+    <!-- Bubble 2 — small, left side -->
+    <svg class="float-a delay-2" data-speed="0.14" style="top:22%;left:14%;width:48px;height:48px;" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <circle cx="24" cy="24" r="22" stroke="#003b87" stroke-width="2.5" fill="#ffffff"/>
+      <path d="M13 15 Q 10 10 17 9" stroke="#ffffff" stroke-width="3" stroke-linecap="round" fill="none" opacity="0.5"/>
+    </svg>
+
+    <!-- Bubble 3 — medium, centre -->
+    <svg class="float-c delay-1" data-speed="-0.16" style="top:30%;left:42%;width:68px;height:68px;" viewBox="0 0 68 68" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <circle cx="34" cy="34" r="31" stroke="#003b87" stroke-width="3" fill="#ffffff"/>
+      <path d="M19 21 Q 14 13 24 11" stroke="#ffffff" stroke-width="3.5" stroke-linecap="round" fill="none" opacity="0.5"/>
+    </svg>
+
+    <!-- Bubble 4 — tiny, right -->
+    <svg class="float-d delay-3" data-speed="0.25" style="top:52%;right:22%;width:36px;height:36px;animation:floatD 8s -4.5s ease-in-out infinite,popBubble 15s -5s ease-in-out infinite;" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <circle cx="18" cy="18" r="16" stroke="#003b87" stroke-width="2" fill="#ffffff"/>
+      <path d="M10 11 Q 8 7 13 6" stroke="#ffffff" stroke-width="2.5" stroke-linecap="round" fill="none" opacity="0.5"/>
+    </svg>
+
+    <!-- Bubble 5 — large, lower left -->
+    <svg class="float-b delay-4" data-speed="0.12" style="top:62%;left:18%;width:80px;height:80px;" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <circle cx="40" cy="40" r="37" stroke="#003b87" stroke-width="3" fill="#ffffff"/>
+      <path d="M22 25 Q 17 17 28 15" stroke="#ffffff" stroke-width="4" stroke-linecap="round" fill="none" opacity="0.5"/>
+    </svg>
+
+    <!-- Bubble 6 — medium, lower right -->
+    <svg class="float-a delay-2" data-speed="-0.18" style="top:80%;right:6%;width:60px;height:60px;" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <circle cx="30" cy="30" r="27" stroke="#003b87" stroke-width="2.5" fill="#ffffff"/>
+      <path d="M17 19 Q 13 12 21 10" stroke="#ffffff" stroke-width="3" stroke-linecap="round" fill="none" opacity="0.5"/>
+    </svg>
+
+    <!-- Bubble 7 — tiny, mid-centre -->
+    <svg class="float-c delay-3" data-speed="0.2" style="top:48%;left:28%;width:30px;height:30px;animation:floatC 5.5s -4.5s ease-in-out infinite,popStar 22s -11s ease-in-out infinite;" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <circle cx="15" cy="15" r="13" stroke="#003b87" stroke-width="2" fill="#ffffff"/>
+      <path d="M8 9 Q 6 5 11 4" stroke="#ffffff" stroke-width="2" stroke-linecap="round" fill="none" opacity="0.5"/>
+    </svg>
+
+    <!-- Bubble 8 — medium, top centre -->
+    <svg class="float-d delay-1" data-speed="-0.22" style="top:15%;left:55%;width:52px;height:52px;" viewBox="0 0 52 52" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <circle cx="26" cy="26" r="24" stroke="#003b87" stroke-width="2.5" fill="#ffffff"/>
+      <path d="M14 16 Q 11 9 18 8" stroke="#ffffff" stroke-width="3" stroke-linecap="round" fill="none" opacity="0.5"/>
+    </svg>
+
+  </div><!-- /deco-layer -->
+
+
+  <!-- ═══════════════════════════════════════
+       NAVIGATION
+  ════════════════════════════════════════ -->
+  <nav class="site-nav" role="navigation" aria-label="Main navigation">
+    <a href="#hero" class="nav-logo">
+      <picture>
+        <source media="(min-width: 640px)" srcset="logo-wide.svg" />
+        <img src="logo-square.svg" alt="The Real Clean Company logo" />
+      </picture>
+    </a>
+    <ul class="nav-links" role="list">
+      <li><a href="#services">Services</a></li>
+      <li><a href="#why-us">Why Us</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <button class="hamburger" id="hamburger" aria-label="Open menu" aria-expanded="false" aria-controls="mobileNav">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+
+  <!-- Mobile nav -->
+  <nav class="nav-mobile" id="mobileNav" aria-label="Mobile navigation">
+    <a href="#services" class="mobile-link">Services</a>
+    <a href="#why-us"   class="mobile-link">Why Us</a>
+    <a href="#contact"  class="mobile-link">Contact</a>
+  </nav>
+
+
+  <!-- ═══════════════════════════════════════
+       HERO
+  ════════════════════════════════════════ -->
+  <header class="hero" id="hero">
+    <div class="hero-content">
+      <picture class="hero-logo" id="heroLogo">
+        <source media="(min-width: 640px)" srcset="logo-wide.svg" />
+        <img src="logo-square.svg" alt="The Real Clean Company" />
+      </picture>
+      <h1>Domestic &amp; commercial<br />cleaning services</h1>
+      <p class="hero-sub">Deep cleaning &middot; Oven cleaning &middot; Weekly, bi-weekly or monthly services</p>
+      <a href="#contact" class="btn-primary">Get in touch</a>
+    </div>
+  </header>
+
+
+  <!-- ═══════════════════════════════════════
+       SERVICES
+  ════════════════════════════════════════ -->
+  <section id="services" aria-labelledby="services-title">
+    <div class="section">
+      <h2 class="section-title" id="services-title">Our Services</h2>
+      <div class="section-underline"></div>
+
+      <div class="services-grid">
+
+        <!-- Regular Cleaning -->
+        <article class="service-card">
+          <div class="service-icon">
+            <svg viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+              <rect x="12" y="2" width="4" height="14" rx="2" fill="#003b87"/>
+              <rect x="7" y="14" width="14" height="3" rx="1.5" fill="#003b87"/>
+              <rect x="10" y="17" width="8" height="9" rx="1" fill="#2f6dbd" opacity="0.4"/>
+              <circle cx="14" cy="6" r="2" fill="#2f6dbd"/>
+            </svg>
+          </div>
+          <div>
+            <div class="service-name">Regular Cleaning</div>
+            <div class="service-desc">Weekly, bi-weekly or monthly domestic cleaning</div>
+          </div>
+        </article>
+
+        <!-- Deep Cleaning -->
+        <article class="service-card">
+          <div class="service-icon">
+            <svg viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+              <rect x="4" y="8" width="20" height="16" rx="2" stroke="#003b87" stroke-width="2" fill="none"/>
+              <rect x="8" y="4" width="12" height="6" rx="1" fill="#003b87" opacity="0.3"/>
+              <line x1="9" y1="13" x2="19" y2="13" stroke="#003b87" stroke-width="1.5" stroke-linecap="round"/>
+              <line x1="9" y1="17" x2="19" y2="17" stroke="#003b87" stroke-width="1.5" stroke-linecap="round"/>
+              <line x1="9" y1="21" x2="15" y2="21" stroke="#003b87" stroke-width="1.5" stroke-linecap="round"/>
+              <path d="M22 3 l.8 3a.2.2 0 0 0 .15.15L26 7l-3.05.8a.2.2 0 0 0-.15.15L22 11l-.8-3.05a.2.2 0 0 0-.15-.15L18 7l3.05-.8a.2.2 0 0 0 .15-.15Z" fill="#2f6dbd"/>
+            </svg>
+          </div>
+          <div>
+            <div class="service-name">Deep Cleaning</div>
+            <div class="service-desc">Thorough top-to-bottom cleaning of your home</div>
+          </div>
+        </article>
+
+        <!-- Oven Cleaning -->
+        <article class="service-card">
+          <div class="service-icon">
+            <svg viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+              <rect x="3" y="5" width="22" height="18" rx="2.5" stroke="#003b87" stroke-width="2" fill="none"/>
+              <rect x="6" y="9" width="16" height="10" rx="1.5" stroke="#003b87" stroke-width="1.5" fill="none"/>
+              <circle cx="8" cy="7" r="1.2" fill="#003b87"/>
+              <circle cx="12" cy="7" r="1.2" fill="#003b87"/>
+              <circle cx="16" cy="7" r="1.2" fill="#003b87"/>
+              <circle cx="20" cy="7" r="1.2" fill="#003b87"/>
+              <path d="M10 14 Q14 11 18 14" stroke="#2f6dbd" stroke-width="1.5" stroke-linecap="round" fill="none"/>
+            </svg>
+          </div>
+          <div>
+            <div class="service-name">Oven Cleaning</div>
+            <div class="service-desc">Professional oven and appliance cleaning</div>
+          </div>
+        </article>
+
+        <!-- End of Tenancy -->
+        <article class="service-card">
+          <div class="service-icon">
+            <svg viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+              <path d="M4 13 L14 4 L24 13" stroke="#003b87" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+              <rect x="6" y="13" width="16" height="12" rx="1" stroke="#003b87" stroke-width="2" fill="none"/>
+              <rect x="11" y="19" width="6" height="6" rx="0.5" fill="#003b87" opacity="0.4"/>
+              <path d="M22 6 l1.2 4.5a.25.25 0 0 0 .2.2L28 12l-4.6 1.2a.25.25 0 0 0-.2.2L22 18l-1.2-4.6a.25.25 0 0 0-.2-.2L16 12l4.6-1.2a.25.25 0 0 0 .2-.2Z" fill="#2f6dbd" transform="scale(0.7) translate(10 4)"/>
+            </svg>
+          </div>
+          <div>
+            <div class="service-name">End of Tenancy</div>
+            <div class="service-desc">Full clean for landlords and tenants moving out</div>
+          </div>
+        </article>
+
+        <!-- Carpet Cleaning -->
+        <article class="service-card">
+          <div class="service-icon">
+            <svg viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+              <rect x="3" y="18" width="22" height="5" rx="1.5" fill="#003b87" opacity="0.3"/>
+              <path d="M5 18 Q8 13 11 18 Q14 13 17 18 Q20 13 23 18" stroke="#003b87" stroke-width="2" stroke-linecap="round" fill="none"/>
+              <path d="M5 13 Q8 8 11 13 Q14 8 17 13 Q20 8 23 13" stroke="#2f6dbd" stroke-width="2" stroke-linecap="round" fill="none" opacity="0.6"/>
+              <rect x="3" y="22" width="22" height="3" rx="1" fill="#003b87"/>
+            </svg>
+          </div>
+          <div>
+            <div class="service-name">Carpet Cleaning</div>
+            <div class="service-desc">Deep carpet and upholstery cleaning</div>
+          </div>
+        </article>
+
+        <!-- Window Cleaning -->
+        <article class="service-card">
+          <div class="service-icon">
+            <svg viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+              <rect x="4" y="4" width="20" height="20" rx="2" stroke="#003b87" stroke-width="2" fill="none"/>
+              <line x1="14" y1="4" x2="14" y2="24" stroke="#003b87" stroke-width="1.5"/>
+              <line x1="4" y1="14" x2="24" y2="14" stroke="#003b87" stroke-width="1.5"/>
+              <path d="M7 7 L11 11" stroke="#ffffff" stroke-width="2" stroke-linecap="round" opacity="0.8"/>
+              <path d="M7 9 L9 11" stroke="#ffffff" stroke-width="1.5" stroke-linecap="round" opacity="0.6"/>
+              <circle cx="20" cy="9" r="2" fill="#2f6dbd" opacity="0.4"/>
+            </svg>
+          </div>
+          <div>
+            <div class="service-name">Window Cleaning</div>
+            <div class="service-desc">Interior and exterior window cleaning</div>
+          </div>
+        </article>
+
+        <!-- Commercial Cleaning -->
+        <article class="service-card">
+          <div class="service-icon">
+            <svg viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+              <rect x="4" y="8" width="20" height="17" rx="1.5" stroke="#003b87" stroke-width="2" fill="none"/>
+              <rect x="8" y="3" width="12" height="7" rx="1" stroke="#003b87" stroke-width="1.5" fill="none"/>
+              <rect x="7" y="14" width="4" height="4" rx="0.5" fill="#003b87" opacity="0.3"/>
+              <rect x="12" y="14" width="4" height="4" rx="0.5" fill="#003b87" opacity="0.3"/>
+              <rect x="17" y="14" width="4" height="4" rx="0.5" fill="#003b87" opacity="0.3"/>
+              <rect x="10" y="20" width="8" height="5" rx="0.5" fill="#2f6dbd" opacity="0.4"/>
+            </svg>
+          </div>
+          <div>
+            <div class="service-name">Commercial Cleaning</div>
+            <div class="service-desc">Office and business premises cleaning</div>
+          </div>
+        </article>
+
+      </div><!-- /services-grid -->
+    </div>
+  </section>
+
+
+  <!-- ═══════════════════════════════════════
+       WHY CHOOSE US
+  ════════════════════════════════════════ -->
+  <section id="why-us" aria-labelledby="why-title">
+    <div class="section">
+      <h2 class="section-title" id="why-title">Why Choose Us</h2>
+      <div class="section-underline"></div>
+
+      <div class="why-card">
+        <ul class="trust-grid" role="list">
+
+          <li class="trust-item">
+            <svg class="trust-star" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+              <path fill="#003b87" d="M14 1 l1.8 6.8a.55.55 0 0 0 .42.42L23 10l-6.78 1.78a.55.55 0 0 0-.42.42L14 19l-1.78-6.8a.55.55 0 0 0-.42-.42L5 10l6.8-1.8a.55.55 0 0 0 .42-.42Z"/>
+              <path fill="#ffffff" d="M14 5 l1.1 4.2a.15.15 0 0 0 .11.11L19.5 10l-4.29 1.11a.15.15 0 0 0-.11.11L14 15.5l-1.11-4.28a.15.15 0 0 0-.11-.11L8.5 10l4.28-1.1a.15.15 0 0 0 .11-.11Z"/>
+            </svg>
+            <span class="trust-text">Fixed price – no clock watching!</span>
+          </li>
+
+          <li class="trust-item">
+            <svg class="trust-star" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+              <path fill="#003b87" d="M14 1 l1.8 6.8a.55.55 0 0 0 .42.42L23 10l-6.78 1.78a.55.55 0 0 0-.42.42L14 19l-1.78-6.8a.55.55 0 0 0-.42-.42L5 10l6.8-1.8a.55.55 0 0 0 .42-.42Z"/>
+              <path fill="#ffffff" d="M14 5 l1.1 4.2a.15.15 0 0 0 .11.11L19.5 10l-4.29 1.11a.15.15 0 0 0-.11.11L14 15.5l-1.11-4.28a.15.15 0 0 0-.11-.11L8.5 10l4.28-1.1a.15.15 0 0 0 .11-.11Z"/>
+            </svg>
+            <span class="trust-text">Established over 11 years</span>
+          </li>
+
+          <li class="trust-item">
+            <svg class="trust-star" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+              <path fill="#003b87" d="M14 1 l1.8 6.8a.55.55 0 0 0 .42.42L23 10l-6.78 1.78a.55.55 0 0 0-.42.42L14 19l-1.78-6.8a.55.55 0 0 0-.42-.42L5 10l6.8-1.8a.55.55 0 0 0 .42-.42Z"/>
+              <path fill="#ffffff" d="M14 5 l1.1 4.2a.15.15 0 0 0 .11.11L19.5 10l-4.29 1.11a.15.15 0 0 0-.11.11L14 15.5l-1.11-4.28a.15.15 0 0 0-.11-.11L8.5 10l4.28-1.1a.15.15 0 0 0 .11-.11Z"/>
+            </svg>
+            <span class="trust-text">All products and equipment provided</span>
+          </li>
+
+          <li class="trust-item">
+            <svg class="trust-star" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+              <path fill="#003b87" d="M14 1 l1.8 6.8a.55.55 0 0 0 .42.42L23 10l-6.78 1.78a.55.55 0 0 0-.42.42L14 19l-1.78-6.8a.55.55 0 0 0-.42-.42L5 10l6.8-1.8a.55.55 0 0 0 .42-.42Z"/>
+              <path fill="#ffffff" d="M14 5 l1.1 4.2a.15.15 0 0 0 .11.11L19.5 10l-4.29 1.11a.15.15 0 0 0-.11.11L14 15.5l-1.11-4.28a.15.15 0 0 0-.11-.11L8.5 10l4.28-1.1a.15.15 0 0 0 .11-.11Z"/>
+            </svg>
+            <span class="trust-text">COSHH trained</span>
+          </li>
+
+          <li class="trust-item">
+            <svg class="trust-star" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+              <path fill="#003b87" d="M14 1 l1.8 6.8a.55.55 0 0 0 .42.42L23 10l-6.78 1.78a.55.55 0 0 0-.42.42L14 19l-1.78-6.8a.55.55 0 0 0-.42-.42L5 10l6.8-1.8a.55.55 0 0 0 .42-.42Z"/>
+              <path fill="#ffffff" d="M14 5 l1.1 4.2a.15.15 0 0 0 .11.11L19.5 10l-4.29 1.11a.15.15 0 0 0-.11.11L14 15.5l-1.11-4.28a.15.15 0 0 0-.11-.11L8.5 10l4.28-1.1a.15.15 0 0 0 .11-.11Z"/>
+            </svg>
+            <span class="trust-text">DBS checked and fully insured</span>
+          </li>
+
+          <li class="trust-item">
+            <svg class="trust-star" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+              <path fill="#003b87" d="M14 1 l1.8 6.8a.55.55 0 0 0 .42.42L23 10l-6.78 1.78a.55.55 0 0 0-.42.42L14 19l-1.78-6.8a.55.55 0 0 0-.42-.42L5 10l6.8-1.8a.55.55 0 0 0 .42-.42Z"/>
+              <path fill="#ffffff" d="M14 5 l1.1 4.2a.15.15 0 0 0 .11.11L19.5 10l-4.29 1.11a.15.15 0 0 0-.11.11L14 15.5l-1.11-4.28a.15.15 0 0 0-.11-.11L8.5 10l4.28-1.1a.15.15 0 0 0 .11-.11Z"/>
+            </svg>
+            <span class="trust-text">Checklist completed on every clean</span>
+          </li>
+
+          <li class="trust-item">
+            <svg class="trust-star" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+              <path fill="#003b87" d="M14 1 l1.8 6.8a.55.55 0 0 0 .42.42L23 10l-6.78 1.78a.55.55 0 0 0-.42.42L14 19l-1.78-6.8a.55.55 0 0 0-.42-.42L5 10l6.8-1.8a.55.55 0 0 0 .42-.42Z"/>
+              <path fill="#ffffff" d="M14 5 l1.1 4.2a.15.15 0 0 0 .11.11L19.5 10l-4.29 1.11a.15.15 0 0 0-.11.11L14 15.5l-1.11-4.28a.15.15 0 0 0-.11-.11L8.5 10l4.28-1.1a.15.15 0 0 0 .11-.11Z"/>
+            </svg>
+            <span class="trust-text">Animal friendly</span>
+          </li>
+
+          <li class="trust-item">
+            <svg class="trust-star" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+              <path fill="#003b87" d="M14 1 l1.8 6.8a.55.55 0 0 0 .42.42L23 10l-6.78 1.78a.55.55 0 0 0-.42.42L14 19l-1.78-6.8a.55.55 0 0 0-.42-.42L5 10l6.8-1.8a.55.55 0 0 0 .42-.42Z"/>
+              <path fill="#ffffff" d="M14 5 l1.1 4.2a.15.15 0 0 0 .11.11L19.5 10l-4.29 1.11a.15.15 0 0 0-.11.11L14 15.5l-1.11-4.28a.15.15 0 0 0-.11-.11L8.5 10l4.28-1.1a.15.15 0 0 0 .11-.11Z"/>
+            </svg>
+            <span class="trust-text">References available</span>
+          </li>
+
+        </ul>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ═══════════════════════════════════════
+       CONTACT
+  ════════════════════════════════════════ -->
+  <div id="contact-wrap">
+    <!-- Decorative stars on dark background -->
+    <div class="contact-deco" aria-hidden="true">
+      <svg style="top:10%;left:5%;width:60px;height:60px;" viewBox="0 0 60 60" fill="none">
+        <path fill="#ffffff" d="M30 2 l3.8 14.2a.9.9 0 0 0 .7.7L49 21l-15.5 3.8a.9.9 0 0 0-.7.7L30 42l-3.8-15.5a.9.9 0 0 0-.7-.7L10 21l15.5-3.8a.9.9 0 0 0 .7-.7Z"/>
+      </svg>
+      <svg style="top:20%;right:8%;width:40px;height:40px;" viewBox="0 0 40 40" fill="none">
+        <path fill="#ffffff" d="M20 2 l2.5 9.5a.6.6 0 0 0 .45.45L33 14.5l-10.05 2.5a.6.6 0 0 0-.45.45L20 28l-2.5-10.05a.6.6 0 0 0-.45-.45L7 14.5l10.05-2.5a.6.6 0 0 0 .45-.45Z"/>
+      </svg>
+      <svg style="bottom:15%;left:12%;width:50px;height:50px;" viewBox="0 0 50 50" fill="none">
+        <path fill="#ffffff" d="M25 2 l3.2 11.8a.75.75 0 0 0 .57.57L41 17l-12.23 3.2a.75.75 0 0 0-.57.57L25 33l-3.2-12.23a.75.75 0 0 0-.57-.57L9 17l12.23-3.2a.75.75 0 0 0 .57-.57Z"/>
+      </svg>
+      <svg style="bottom:20%;right:5%;width:35px;height:35px;" viewBox="0 0 35 35" fill="none">
+        <path fill="#ffffff" d="M17.5 1 l2.2 8.3a.52.52 0 0 0 .4.4L28.5 12l-8.4 2.2a.52.52 0 0 0-.4.4L17.5 23l-2.2-8.4a.52.52 0 0 0-.4-.4L6.5 12l8.4-2.2a.52.52 0 0 0 .4-.4Z"/>
+      </svg>
+    </div>
+
+    <section id="contact" aria-labelledby="contact-title">
+      <h2 class="section-title" id="contact-title">Get in Touch</h2>
+      <div class="section-underline" style="background:rgba(255,255,255,0.4);"></div>
+      <p class="contact-lede">We'd love to hear from you.<br />Call or email today for a free quote.</p>
+
+      <div class="contact-card">
+        <h3>Contact Katie</h3>
+        <p class="contact-tag">Southampton, Isle of Wight &amp; surrounding areas</p>
+
+        <a href="tel:07972244852" class="contact-item">
+          <div class="contact-icon">
+            <svg viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+              <path d="M4 2h4l1.5 4L8 8a11 11 0 0 0 4 4l1.5-1.5L18 12v4a2 2 0 0 1-2 2A14 14 0 0 1 2 4a2 2 0 0 1 2-2Z" stroke="#ffffff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+            </svg>
+          </div>
+          <span>07972 244852</span>
+        </a>
+
+        <a href="mailto:info@therealcleancompany.co.uk" class="contact-item">
+          <div class="contact-icon">
+            <svg viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+              <rect x="2" y="4" width="16" height="12" rx="2" stroke="#ffffff" stroke-width="1.5" fill="none"/>
+              <path d="M2 7 L10 12 L18 7" stroke="#ffffff" stroke-width="1.5" stroke-linecap="round" fill="none"/>
+            </svg>
+          </div>
+          <span>info@therealcleancompany.co.uk</span>
+        </a>
+      </div>
+    </section>
+  </div>
+
+
+  <!-- ═══════════════════════════════════════
+       FOOTER
+  ════════════════════════════════════════ -->
+  <footer>
+    <p><strong>© 2025 The Real Clean Company.</strong> All rights reserved.</p>
+    <p>Serving Southampton, Isle of Wight and surrounding areas</p>
+  </footer>
+
+
+  <!-- ═══════════════════════════════════════
+       JAVASCRIPT
+       1. Hamburger menu
+       2. Scroll-reveal nav (hidden until hero logo scrolls past)
+       3. Parallax on deco stars & bubbles
+  ════════════════════════════════════════ -->
+  <script>
+    (function () {
+
+      /* ── 1. Hamburger ─────────────────────── */
+      var btn    = document.getElementById('hamburger');
+      var mobileNav = document.getElementById('mobileNav');
+
+      function closeMenu() {
+        btn.classList.remove('open');
+        mobileNav.classList.remove('open');
+        btn.setAttribute('aria-expanded', 'false');
+      }
+
+      btn.addEventListener('click', function () {
+        var isOpen = mobileNav.classList.toggle('open');
+        btn.classList.toggle('open', isOpen);
+        btn.setAttribute('aria-expanded', String(isOpen));
+      });
+
+      mobileNav.querySelectorAll('a').forEach(function (a) {
+        a.addEventListener('click', closeMenu);
+      });
+
+      document.addEventListener('click', function (e) {
+        if (!btn.contains(e.target) && !mobileNav.contains(e.target)) closeMenu();
+      });
+
+
+      /* ── 2. Scroll-reveal nav ─────────────── */
+      var siteNav  = document.querySelector('.site-nav');
+      var heroLogo = document.getElementById('heroLogo');
+
+      function updateNav() {
+        var threshold = heroLogo
+          ? heroLogo.getBoundingClientRect().bottom + window.scrollY
+          : window.innerHeight * 0.5;
+        if (window.scrollY > threshold) {
+          siteNav.classList.add('nav-visible');
+        } else {
+          siteNav.classList.remove('nav-visible');
+          // Also close mobile menu when nav hides
+          closeMenu();
+        }
+      }
+
+      // Run once on load so nav is hidden correctly at top
+      updateNav();
+
+
+      /* ── 3. Parallax deco elements ────────── */
+      var decoEls = Array.from(
+        document.querySelectorAll('.deco-layer [data-speed]')
+      );
+
+      var ticking = false;
+
+      function applyParallax() {
+        var scrollY = window.scrollY;
+        decoEls.forEach(function (el) {
+          var speed = parseFloat(el.dataset.speed) || 0;
+          // translateY on top of existing float animation via a CSS var
+          el.style.setProperty('--py', (scrollY * speed).toFixed(2) + 'px');
+        });
+        ticking = false;
+      }
+
+      window.addEventListener('scroll', function () {
+        updateNav();
+        if (!ticking) {
+          requestAnimationFrame(applyParallax);
+          ticking = true;
+        }
+      }, { passive: true });
+
+    })();
+  </script>
+
+</body>
+</html>

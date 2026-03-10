@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(open:*)",
+      "WebFetch(domain:www.onlinewebfonts.com)",
+      "Bash(head:*)"
+    ]
+  }
+}
